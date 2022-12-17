@@ -146,7 +146,7 @@ function library:new(props)
 			Name = tostring(math.random(0,999999))..tostring(math.random(0,999999)),
 			DisplayOrder = 9999,
 			ResetOnSpawn = false,
-			ZIndexBehavior = "Center",
+			ZIndexBehavior = "Global",
 			Parent = cre
 		}
 	)
